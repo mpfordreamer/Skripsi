@@ -1,0 +1,71 @@
+# Python cache / bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual envs
+env/
+venv/
+ENV/
+.venv/
+
+# Distribution / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints
+*.nbconvert.ipynb
+*.ipynb (if you prefer to not track notebooks; remove to track)
+
+# TensorFlow / Keras artifacts
+checkpoints/
+logs/
+*.ckpt
+*.ckpt.index
+*.ckpt.data-*
+*.h5
+saved_model/
+*.pb
+
+# Large data files (MAT) — biasanya ingin di-ignore
+*.mat
+# Jika ingin hanya ignore folder data tertentu, uncomment baris berikut dan hapus *.mat di atas:
+# CI_Test/*.mat
+# CI_Test_6Class/*.mat
+# CS_Train/*.mat
+# Arsip/**/*.mat
+
+# Model / results / artifacts
+*.npz
+*.npy
+*.csv (jika output training disimpan lokal dan tidak ingin di-track)
+*.model
+*.weights
+
+# Logs, reports, cache
+*.log
+logs/
+htmlcov/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+pip-log.txt
+pip-delete-this-directory.txt
+*.swp
+*.swo
