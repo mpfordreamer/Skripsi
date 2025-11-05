@@ -1,4 +1,3 @@
-// ...existing code...
 # LSTM Dataset Project (Dataset_LSTM)
 
 Ringkasan singkat dokumentasi untuk skrip pelatihan LSTM yang ada di workspace.
@@ -50,3 +49,4 @@ python TrainLSTM3.py   # Skenario 3
   - [TrainLSTM1.py](TrainLSTM1.py): single LSTM layer.
   - [TrainLSTM2.py](TrainLSTM2.py): stacked LSTM 64 → 32.
   - [TrainLSTM3.py](TrainLSTM3.py): stacked LSTM 32 → 32 + dropout.
+
